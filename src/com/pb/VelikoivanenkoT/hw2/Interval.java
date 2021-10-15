@@ -9,8 +9,7 @@ public class Interval {
             System.out.print("Введите число от 1 до 100 включительно:  ");
             x = scan.nextInt();
             if (x == 1 || x < 101 || x < 1 || x >= 101) {
-                if (x >= 1 && x <= 14) {
-                    System.out.print("В диапазоне 1-14");
+                if (x >= 1 && x <= 14) { System.out.print("В диапазоне 1-14");
                 } else if (x >= 15 && x <= 35) {
                     System.out.print("В диапазоне 15-35");
                 } else if (x >= 36 && x <= 51) {
